@@ -157,6 +157,16 @@ public static class Program
         }
     }
 
+    private static string FormatBytes(long bytes)
+    {
+        if (bytes < 0)
+        {
+            return $"{bytes} B";
+        }
+
+        return FormatBytes((ulong)bytes);
+    }
+
     private static string FormatBytes(ulong bytes)
     {
         const double unit = 1024d;
