@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="WindowsDiagnosticsCli.Tests/WindowsDiagnosticsCli.Tests.csproj" />
+  <Project Path="WindowsDiagnosticsCli/WindowsDiagnosticsCli.csproj" />
+</Solution>
